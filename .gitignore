@@ -1,0 +1,18 @@
+# Node.js
+npm-debug.log
+yarn-error.log
+node_modules/
+.local-chromium/
+
+# Archivos de entorno
+.env
+
+# Archivos de construcción y distribución
+/dist
+/build
+
+# Configuración de IDE (ejemplo para VSCode)
+.vscode/
+
+# Archivos de logs
+*.log

@@ -1,8 +1,9 @@
 import pkg from "whatsapp-web.js";
 import qrcodeTerminal from "qrcode-terminal";
-import puppeteer from "puppeteer";
 import cron from "node-cron";
+import puppeteer from "puppeteer";
 const { Client, LocalAuth } = pkg;
+
 import dotenv from "dotenv";
 dotenv.config();
 
@@ -15,8 +16,7 @@ const client = new Client({
         args: [
             "--no-sandbox",
             "--disable-setuid-sandbox",
-            
-        ],
+        ]
     },
     
 })
@@ -39,5 +39,7 @@ client.on("qr", (qr) => {
             })
         })
     })
+
+    
 
 client.initialize();

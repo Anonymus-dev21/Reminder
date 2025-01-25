@@ -1,6 +1,6 @@
 import pkg from "whatsapp-web.js";
 import qrcodeTerminal from "qrcode-terminal";
-import puppeteer from 'puppeteer-core';
+import puppeteer from "puppeteer";
 import cron from "node-cron";
 const { Client, LocalAuth } = pkg;
 import dotenv from "dotenv";
@@ -11,8 +11,7 @@ const numero = process.env.WHATSAPP_NUMBER
 const client = new Client({
     authStrategy: new LocalAuth(),
     puppeteer: {
-
-       executablePath: puppeteer.executablePath(),
+        
         args: [
             "--no-sandbox",
             "--disable-setuid-sandbox",

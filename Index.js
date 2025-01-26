@@ -44,7 +44,7 @@ app.get("/send", (req, res) => {
 
     client.on("ready", () => {
         console.log("Client is ready!");
-        cron.schedule(" 40 23 * * *", () => {
+        cron.schedule(" 45 0 * * *", () => {
             
             const mensaje ="Pastillaamor! t amo mucho";
             client.sendMessage(`${numero}@c.us`, mensaje).then(() => {

@@ -1,77 +1,40 @@
-2025/01/26-00:16:05.111 4588 Reusing MANIFEST C:\Users\ocabral\Desktop\NODEWSP\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/01/26-00:16:05.112 4588 Recovering log #638
-2025/01/26-00:16:05.154 4588 Reusing old log C:\Users\ocabral\Desktop\NODEWSP\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000638.log 
-2025/01/26-00:16:10.383 23c0 Level-0 table #653: started
-2025/01/26-00:16:10.397 23c0 Level-0 table #653: 197427 bytes OK
-2025/01/26-00:16:10.399 23c0 Delete type=0 #638
-2025/01/26-00:16:10.400 23c0 Manual compaction at level-0 from '\x00+\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00,\x00\x00\x00' @ 0 : 0; will stop at '\x00+\x00\x00\x05' @ 1995588 : 1
-2025/01/26-00:16:10.400 23c0 Compacting 1@0 + 1@1 files
-2025/01/26-00:16:10.676 23c0 Generated table #654@0: 3895 keys, 86157 bytes
-2025/01/26-00:16:10.689 23c0 Generated table #655@0: 1051 keys, 21113 bytes
-2025/01/26-00:16:10.689 23c0 Compacted 1@0 + 1@1 files => 107270 bytes
-2025/01/26-00:16:10.691 23c0 compacted to: files[ 0 2 20 0 0 0 0 ]
-2025/01/26-00:16:10.691 23c0 Delete type=2 #653
-2025/01/26-00:16:10.695 23c0 Manual compaction at level-0 from '\x00+\x00\x00\x05' @ 1995588 : 1 .. '\x00,\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/01/26-00:16:18.920 23c0 Compacting 1@1 + 16@2 files
-2025/01/26-00:16:19.466 23c0 Generated table #656@1: 45885 keys, 2228803 bytes
-2025/01/26-00:16:19.634 23c0 Generated table #657@1: 2993 keys, 2159635 bytes
-2025/01/26-00:16:19.846 23c0 Generated table #658@1: 3205 keys, 2157465 bytes
-2025/01/26-00:16:19.924 23c0 Generated table #659@1: 3524 keys, 2161131 bytes
-2025/01/26-00:16:20.074 23c0 Generated table #660@1: 4044 keys, 2163533 bytes
-2025/01/26-00:16:20.461 23c0 Generated table #661@1: 29803 keys, 2235673 bytes
-2025/01/26-00:16:20.949 23c0 Generated table #662@1: 27670 keys, 2260967 bytes
-2025/01/26-00:16:21.259 23c0 Generated table #663@1: 22696 keys, 2217617 bytes
-2025/01/26-00:16:21.520 23c0 Generated table #664@1: 26653 keys, 2154454 bytes
-2025/01/26-00:16:22.094 23c0 Generated table #665@1: 105749 keys, 2258343 bytes
-2025/01/26-00:16:22.115 23c0 Generated table #666@1: 8731 keys, 191351 bytes
-2025/01/26-00:16:22.115 23c0 Compacted 1@1 + 16@2 files => 22188972 bytes
-2025/01/26-00:16:22.116 23c0 compacted to: files[ 0 1 15 0 0 0 0 ]
-2025/01/26-00:16:22.117 23c0 Delete type=2 #557
-2025/01/26-00:16:22.117 23c0 Delete type=2 #558
-2025/01/26-00:16:22.117 23c0 Delete type=2 #576
-2025/01/26-00:16:22.117 23c0 Delete type=2 #594
-2025/01/26-00:16:22.117 23c0 Delete type=2 #608
-2025/01/26-00:16:22.117 23c0 Delete type=2 #622
-2025/01/26-00:16:22.117 23c0 Delete type=2 #636
-2025/01/26-00:16:22.117 23c0 Delete type=2 #641
-2025/01/26-00:16:22.117 23c0 Delete type=2 #642
-2025/01/26-00:16:22.117 23c0 Delete type=2 #643
-2025/01/26-00:16:22.117 23c0 Delete type=2 #644
-2025/01/26-00:16:22.117 23c0 Delete type=2 #645
-2025/01/26-00:16:22.117 23c0 Delete type=2 #646
-2025/01/26-00:16:22.117 23c0 Delete type=2 #647
-2025/01/26-00:16:22.117 23c0 Delete type=2 #648
-2025/01/26-00:16:22.117 23c0 Delete type=2 #649
-2025/01/26-00:16:22.117 23c0 Delete type=2 #650
-2025/01/26-00:16:22.117 23c0 Delete type=2 #654
-2025/01/26-00:17:28.609 53a4 Level-0 table #668: started
-2025/01/26-00:17:28.758 53a4 Level-0 table #668: 1065113 bytes OK
-2025/01/26-00:17:28.761 53a4 Delete type=0 #652
-2025/01/26-00:17:31.226 5310 Compacting 1@0 + 1@1 files
-2025/01/26-00:17:31.542 5310 Generated table #669@0: 21566 keys, 494296 bytes
-2025/01/26-00:17:31.554 5310 Generated table #670@0: 1055 keys, 21156 bytes
-2025/01/26-00:17:31.554 5310 Compacted 1@0 + 1@1 files => 515452 bytes
-2025/01/26-00:17:31.555 5310 compacted to: files[ 0 2 15 0 0 0 0 ]
-2025/01/26-00:17:31.556 5310 Delete type=2 #655
-2025/01/26-00:17:31.556 5310 Delete type=2 #668
-2025/01/26-00:17:32.499 5310 Compacting 1@1 + 8@2 files
-2025/01/26-00:17:33.112 5310 Generated table #671@1: 49299 keys, 2234284 bytes
-2025/01/26-00:17:33.298 5310 Generated table #672@1: 2966 keys, 2159455 bytes
-2025/01/26-00:17:33.541 5310 Generated table #673@1: 3169 keys, 2156883 bytes
-2025/01/26-00:17:34.090 5310 Generated table #674@1: 3504 keys, 2160544 bytes
-2025/01/26-00:17:34.314 5310 Generated table #675@1: 4050 keys, 2162609 bytes
-2025/01/26-00:17:34.952 5310 Generated table #676@1: 28308 keys, 2229178 bytes
-2025/01/26-00:17:35.462 5310 Generated table #677@1: 27626 keys, 2261290 bytes
-2025/01/26-00:17:35.757 5310 Generated table #678@1: 24025 keys, 2226125 bytes
-2025/01/26-00:17:35.767 5310 Generated table #679@1: 720 keys, 144447 bytes
-2025/01/26-00:17:35.767 5310 Compacted 1@1 + 8@2 files => 17734815 bytes
-2025/01/26-00:17:35.769 5310 compacted to: files[ 0 1 16 0 0 0 0 ]
-2025/01/26-00:17:35.770 5310 Delete type=2 #656
-2025/01/26-00:17:35.770 5310 Delete type=2 #657
-2025/01/26-00:17:35.770 5310 Delete type=2 #658
-2025/01/26-00:17:35.770 5310 Delete type=2 #659
-2025/01/26-00:17:35.770 5310 Delete type=2 #660
-2025/01/26-00:17:35.770 5310 Delete type=2 #661
-2025/01/26-00:17:35.770 5310 Delete type=2 #662
-2025/01/26-00:17:35.770 5310 Delete type=2 #663
-2025/01/26-00:17:35.770 5310 Delete type=2 #669
+2025/01/26-00:56:43.208 5cbc Reusing MANIFEST C:\Users\ocabral\Desktop\NODEWSP\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/01/26-00:56:43.209 5cbc Recovering log #681
+2025/01/26-00:56:43.242 5cbc Reusing old log C:\Users\ocabral\Desktop\NODEWSP\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000681.log 
+2025/01/26-00:56:47.775 475c Level-0 table #698: started
+2025/01/26-00:56:47.792 475c Level-0 table #698: 206695 bytes OK
+2025/01/26-00:56:47.794 475c Delete type=0 #681
+2025/01/26-00:56:47.796 475c Manual compaction at level-0 from '\x00-\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00.\x00\x00\x00' @ 0 : 0; will stop at '\x00-\x00\x00\x05' @ 2073320 : 1
+2025/01/26-00:56:47.796 475c Compacting 1@0 + 1@1 files
+2025/01/26-00:56:47.816 475c Generated table #699@0: 4024 keys, 89920 bytes
+2025/01/26-00:56:47.823 475c Generated table #700@0: 1097 keys, 21894 bytes
+2025/01/26-00:56:47.823 475c Compacted 1@0 + 1@1 files => 111814 bytes
+2025/01/26-00:56:47.825 475c compacted to: files[ 0 2 16 0 0 0 0 ]
+2025/01/26-00:56:47.825 475c Delete type=2 #698
+2025/01/26-00:56:47.826 475c Manual compaction at level-0 from '\x00-\x00\x00\x05' @ 2073320 : 1 .. '\x00.\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/01/26-00:56:52.759 5cbc Compacting 1@1 + 10@2 files
+2025/01/26-00:56:53.062 5cbc Generated table #701@1: 51127 keys, 2235190 bytes
+2025/01/26-00:56:53.172 5cbc Generated table #702@1: 2963 keys, 2160339 bytes
+2025/01/26-00:56:53.353 5cbc Generated table #703@1: 3157 keys, 2158463 bytes
+2025/01/26-00:56:53.424 5cbc Generated table #704@1: 3485 keys, 2160328 bytes
+2025/01/26-00:56:53.516 5cbc Generated table #705@1: 4071 keys, 2163327 bytes
+2025/01/26-00:56:53.707 5cbc Generated table #706@1: 27761 keys, 2227189 bytes
+2025/01/26-00:56:53.952 5cbc Generated table #707@1: 27648 keys, 2260150 bytes
+2025/01/26-00:56:54.326 5cbc Generated table #708@1: 24578 keys, 2227740 bytes
+2025/01/26-00:56:54.465 5cbc Generated table #709@1: 12968 keys, 2136181 bytes
+2025/01/26-00:56:54.869 5cbc Generated table #710@1: 109980 keys, 2261068 bytes
+2025/01/26-00:56:54.875 5cbc Generated table #711@1: 1097 keys, 25577 bytes
+2025/01/26-00:56:54.875 5cbc Compacted 1@1 + 10@2 files => 22015552 bytes
+2025/01/26-00:56:54.877 5cbc compacted to: files[ 0 1 17 0 0 0 0 ]
+2025/01/26-00:56:54.877 5cbc Delete type=2 #684
+2025/01/26-00:56:54.877 5cbc Delete type=2 #685
+2025/01/26-00:56:54.877 5cbc Delete type=2 #686
+2025/01/26-00:56:54.877 5cbc Delete type=2 #687
+2025/01/26-00:56:54.877 5cbc Delete type=2 #688
+2025/01/26-00:56:54.877 5cbc Delete type=2 #689
+2025/01/26-00:56:54.878 5cbc Delete type=2 #690
+2025/01/26-00:56:54.878 5cbc Delete type=2 #691
+2025/01/26-00:56:54.878 5cbc Delete type=2 #692
+2025/01/26-00:56:54.878 5cbc Delete type=2 #693
+2025/01/26-00:56:54.878 5cbc Delete type=2 #694
+2025/01/26-00:56:54.878 5cbc Delete type=2 #699

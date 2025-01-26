@@ -1,10 +1,10 @@
 import pkg from "whatsapp-web.js";
-import pkg2 from "node-cron-tz";
-import qrcodeTerminal from "qrcode-terminal";
 import cron from "node-cron";
+import qrcodeTerminal from "qrcode-terminal";
 import puppeteer from "puppeteer";
 import express from "express";
-const { schedule } = pkg2
+
+
 const { Client, LocalAuth } = pkg;
 
 import dotenv from "dotenv";
@@ -44,8 +44,7 @@ app.get("/send", (req, res) => {
 
     client.on("ready", () => {
         console.log("Client is ready!");
-         cron.schedule(" 0 23 * * *", {timezone: "America/Argentina/Buenos_Aires"},
-            () => {
+        cron.schedule(" 40 23 * * *", () => {
             
             const mensaje ="Pastillaamor! t amo mucho";
             client.sendMessage(`${numero}@c.us`, mensaje).then(() => {
@@ -53,7 +52,10 @@ app.get("/send", (req, res) => {
             }).catch((error) => {
                 console.error("Error al enviar el mensaje:", error);
             })
-        })
+        }, {
+            scheduled: true,
+            timezone: "America/Sao_Paulo"
+        });
     })
 app.listen(port, () => {
     console.log(`Server listening on port ${port}`);

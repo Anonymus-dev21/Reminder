@@ -1,3 +1,14 @@
-2025/01/25-23:22:49.543 5d40 Reusing MANIFEST C:\Users\ocabral\Desktop\NODEWSP\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
-2025/01/25-23:22:49.544 5d40 Recovering log #14
-2025/01/25-23:22:49.544 5d40 Reusing old log C:\Users\ocabral\Desktop\NODEWSP\.wwebjs_auth\session\Default\Local Storage\leveldb/000014.log 
+2025/01/26-00:16:04.470 23c0 Reusing MANIFEST C:\Users\ocabral\Desktop\NODEWSP\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
+2025/01/26-00:16:04.470 23c0 Recovering log #14
+2025/01/26-00:16:04.471 23c0 Reusing old log C:\Users\ocabral\Desktop\NODEWSP\.wwebjs_auth\session\Default\Local Storage\leveldb/000014.log 
+2025/01/26-00:24:08.194 5100 Level-0 table #17: started
+2025/01/26-00:24:08.225 5100 Level-0 table #17: 14650 bytes OK
+2025/01/26-00:24:08.228 5100 Delete type=0 #14
+2025/01/26-00:24:08.269 5ad4 Compacting 4@0 + 0@1 files
+2025/01/26-00:24:08.281 5ad4 Generated table #18@0: 243 keys, 14519 bytes
+2025/01/26-00:24:08.281 5ad4 Compacted 4@0 + 0@1 files => 14519 bytes
+2025/01/26-00:24:08.283 5ad4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/01/26-00:24:08.284 5ad4 Delete type=2 #7
+2025/01/26-00:24:08.284 5ad4 Delete type=2 #10
+2025/01/26-00:24:08.284 5ad4 Delete type=2 #13
+2025/01/26-00:24:08.285 5ad4 Delete type=2 #17

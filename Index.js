@@ -15,7 +15,7 @@ const numero = process.env.WHATSAPP_NUMBER
 const client = new Client({
     authStrategy: new LocalAuth(),
     puppeteer: {
-        
+        handleSIGINT: false,
         args: [
             "--no-sandbox",
             "--disable-setuid-sandbox",
